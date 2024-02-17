@@ -10,9 +10,11 @@ Create Template Project to use for other projects <br />
 
 ## MileStones
 
-1. Design Pages Hierachy <br />
-2. Design DB Model <br />
-   a. Create MongoDB Collection and Database <br />
+1. <s>Design Pages Hierachy <br />
+
+2. Design DB Model<br />
+   a. Create MongoDB Collection and Database<br />
+   b. Entered Data to DB using seeder </s> <br />
 
 3. Create BackEnd API Routes <br />
 4. Create FrontEnd Functionality <br />
@@ -27,12 +29,15 @@ Create Template Project to use for other projects <br />
 ## Pages
 
 0. Landing Page <br />
+1. Editors Picks - Budget, Regular, HighEnd <br />
+2. Products Page <br />
+3. Blog Page <br />
+
+Future Enhancements <br />
+
 1. Kit Builder - Enter Budget $$$ <br />
 2. Result Page <br />
-3. Editors Picks - Budget, Regular, HighEnd <br />
-4. Products Page <br />
-5. Comparison Page <br />
-6. Blog Page <br />
+3. Comparison Page <br />
 
 ## Model
 
