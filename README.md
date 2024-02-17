@@ -26,10 +26,13 @@ Create Template Project to use for other projects <br />
 
 ## Pages
 
-1. HomePage <br />
-2. Review Page <br />
-3. Comparison Page <br />
-4. Kit Builder <br />
+0. Landing Page <br />
+1. Kit Builder - Enter Budget $$$ <br />
+2. Result Page <br />
+3. Editors Picks - Budget, Regular, HighEnd <br />
+4. Products Page <br />
+5. Comparison Page <br />
+6. Blog Page <br />
 
 ## Model
 
@@ -42,3 +45,18 @@ Create Template Project to use for other projects <br />
 - Description
 - CustomSpecs
 - Category (Bike, Swim, Run, Etc...)
+
+## Questions
+
+**General**
+
+1. Kit Builder
+   Q. How will we scour the internet for cheap parts ?
+   A. We wont. We will have a DB of parts of different price ranges
+
+   Q. Then how do build a kit ?  
+   A. Randomize it. Pick one from each category starting from the priority list
+
+2. Editors Pick
+   Q. This is basically a blog isnt it ?
+   A. Yes
