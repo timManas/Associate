@@ -6,6 +6,7 @@ key.*
 */*DS_Store
 .env
 
+certificate*
 
 # dependencies
 /node_modules
