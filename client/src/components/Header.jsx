@@ -1,19 +1,25 @@
-import { ButtonGroup, Flex, Spacer, Link, Text } from '@chakra-ui/react'
+import { ButtonGroup, Flex, Spacer, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <Flex bg='gray.400'>
-      <Link p='4' href={'something'} ml={5}>
-        <Text display='block' fontSize='lg' fontWeight='bold'>
+      <Link to={'/'}>
+        <Text p='4' display='block' fontSize='lg' fontWeight='bold'>
           Associate Pro
         </Text>
       </Link>
       <Spacer />
       <ButtonGroup mr={5}>
-        <Link p='4'>Products</Link>
-        <Link p='4'>Editors Pick</Link>
-        <Link p='4'>CheckList</Link>
-        <Link p='4'>Sign In</Link>
+        <Link to={'/editorspicks'}>
+          <Text p='4'>Editors Pick</Text>
+        </Link>
+        <Link to={'/checklist'}>
+          <Text p='4'>CheckList</Text>
+        </Link>
+        <Link to={'/aboutus'}>
+          <Text p='4'>About Us</Text>
+        </Link>
       </ButtonGroup>
     </Flex>
   )
