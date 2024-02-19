@@ -14,6 +14,7 @@ export default defineConfig({
   server: {
     // proxy requests prefixed '/api' and '/uploads'
     proxy: {
+      '/': 'http://localhost:5000',
       '/api': 'http://localhost:5000',
       '/uploads': 'http://localhost:5000',
     },
