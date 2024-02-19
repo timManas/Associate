@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { SimpleGrid } from '@chakra-ui/react'
-import ProductCard from '../components/ProductCard'
+import ProductCard from '../components/ProductCard.jsx'
 
 const HomePage = () => {
   const [products, setProducts] = useState([])
