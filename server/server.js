@@ -20,8 +20,8 @@ app.use(cors())
 
 connectDB()
 
-app.use('/product', productRoutes)
-app.use('/subscriber', subscriberRoutes)
+app.use('/api/product', productRoutes)
+app.use('/api/subscriber', subscriberRoutes)
 
 const __dirname = path.resolve()
 
