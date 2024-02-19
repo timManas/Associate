@@ -2,6 +2,7 @@ import asyncHandler from 'express-async-handler'
 import ProductModel from '../models/ProductModel.js'
 
 const getAllProducts = asyncHandler(async (req, res) => {
+  console.log('getAllProducts')
   try {
     const movie = await ProductModel.find()
     res.json(movie)
