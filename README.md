@@ -16,14 +16,14 @@ Create Template Project to use for other projects <br />
    a. Create MongoDB Collection and Database<br />
    b. Entered Data to DB using seeder <br />
 
-3. Create BackEnd API Routes </s> <br />
-4. Create HTTPS Server functionality <br />
-5. Create SubscriberList <br />
-6. Create Proxy Server <br />
-7. Create FrontEnd Functionality <br />
-8. Host on Netlify <br />
-9. Launch to Production <br />
-10. Customize for UseCase <br />
+3. Create BackEnd API Routes <br />
+4. Create HTTPS Server functionality </s> <br />
+5. Create Proxy Server <br />
+6. Create FrontEnd Functionality <br />
+7. Host on Netlify <br />
+8. Launch to Production <br />
+9. Customize for UseCase <br />
+10. Create SubscriberList <br />
 
 ## Key Lessons
 
