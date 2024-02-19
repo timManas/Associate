@@ -4,7 +4,7 @@ import ProductModel from '../models/ProductModel.js'
 const getAllProducts = asyncHandler(async (req, res) => {
   try {
     const movie = await ProductModel.find()
-    res.send(movie)
+    res.json(movie)
   } catch (err) {
     res.json({ error: err.message })
   }
