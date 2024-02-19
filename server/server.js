@@ -14,6 +14,7 @@ import subscriberRoutes from './routes/subscriberRoutes.js'
 const PORT = process.env.PORT || 5000
 const app = express()
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 app.use(morgan('dev'))
 app.use(cors())
 
@@ -22,8 +23,9 @@ connectDB()
 app.use('/product', productRoutes)
 app.use('/subscriber', subscriberRoutes)
 
+const __dirname = path.resolve()
+
 if (process.env.NODE_ENV === 'production') {
-  const __dirname = path.resolve()
   app.use('/uploads', express.static('/var/data/uploads'))
   app.use(express.static(path.join(__dirname, '/client/build')))
 
@@ -31,7 +33,6 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'))
   )
 } else {
-  const __dirname = path.resolve()
   app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
   app.get('/', (req, res) => {
     res.send('API is running....')
