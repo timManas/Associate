@@ -12,7 +12,7 @@ const HomePage = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('https://localhost:5000/product/all')
+      const response = await axios.get('/product/all')
       console.log(response.data)
       setProducts(response.data)
     } catch (err) {
