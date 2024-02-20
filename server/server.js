@@ -11,7 +11,7 @@ import connectDB from './config/connectDB.js'
 import productRoutes from './routes/productRoutes.js'
 import subscriberRoutes from './routes/subscriberRoutes.js'
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 4500
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
