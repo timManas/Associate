@@ -47,11 +47,11 @@ if (process.env.NODE_ENV === 'production') {
 //   key: fs.readFileSync('./certificate/localhost.key'),
 //   cert: fs.readFileSync('./certificate/localhost.crt'),
 // }
-// const server = https.createServer(keys, app)
+// const server = https.createServer(keys,app)
 // server.listen(PORT, () => {
 //   console.log(`API is listening on Port: ${PORT}`)
 // })
 
-app.listen(4000, () => {
-  console.log('Listening on Port: ' + 4000)
+app.listen(PORT, () => {
+  console.log('Listening on Port: ' + PORT)
 })
