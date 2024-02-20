@@ -52,6 +52,6 @@ if (process.env.NODE_ENV === 'production') {
 //   console.log(`API is listening on Port: ${PORT}`)
 // })
 
-app.listen(PORT, () => {
-  console.log('Listening on Port: ' + PORT)
+app.listen(4000, () => {
+  console.log('Listening on Port: ' + 4000)
 })
